@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>智凱個人網站new</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+    integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" href="stylesheets/style.css">
+</head>
+
+<body>
+  <button id="scroll-to-top" type="button" class="btn btn-secondary">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <header id="home" class="header">
+    <div class="header-container d-flex justify-content-center align-items-center">
+      <div class="text-center text-white">
+        <img src="images/logo.png" class="header-logo" alt="">
+        <h1 class="mt-3 font-weight-bold">Hi！<br>歡迎來到智凱個人網站</h1>
+        <div class="mt-4 header-actions">
+          <a href="#about" class="btn btn-info btn-lg">我的介紹</a>
+          <a href="#portfolio" class="btn btn-outline-light btn-lg">專案作品</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-darktrans py-3 sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#home">
+        <img class="navbar-logo" src="images/logo.png" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#home">首頁 <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">關於我</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#experience">相關經歷</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">專案作品</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">聯絡我</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  </nav>
+
+  <section id="about" class="container py-5">
+    <h2 class="text-center section-title">關於我</h2>
+    <div class="section-title-divider"></div>
+    <div class="row">
+      <div class="col-md-4 mb-2 px-5">
+        <img class="img-fluid rounded" src="images/avatar.jpg" alt="">
+      </div>
+      <div class="col-md-8 px-5">
+        <!-- <h3 class="text-center mt-2">游智凱 - Kevin Yu</h3> -->
+        <div class="row mt-4">
+          <div class="col-md-6 about-item">
+            <div class="float-left"><i class="fas fa-graduation-cap"></i></div>
+            <h4 class="about-title">學歷</h4>
+            <p class="about-description">
+              — 政治大學資訊管理學系<br>
+              — 雙主修 數位內容與科技學程<br>
+              — 樂觀、積極、開朗的大四學生
+            </p>
+          </div>
+          <div class="col-md-6 about-item">
+            <div class="float-left"><i class="fas fa-user-tag"></i></div>
+            <h4 class="about-title">個人特質</h4>
+            <p class="about-description">
+              — 只要加倍努力，必定看的見成果<br>
+              — 找到興趣與熱忱，便會投入所有<br>
+              — 有了目標，絕對會不斷積極的學習
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 about-item">
+            <div class="float-left"><i class="fas fa-code"></i></div>
+            <h4 class="about-title">技能</h4>
+            <div class="about-skills">
+              <span>HTML5</span>
+              <div class="progress mb-3">
+                <div class="progress-bar bg-danger" role="progressbar" style="width: 95%">95%</div>
+              </div>
+              <span>CSS3 (會用Bootstrap4 框架)</span>
+              <div class="progress mb-3">
+                <div class="progress-bar bg-info" role="progressbar" style="width: 85%">85%</div>
+              </div>
+              <span>JQuery、JavaScript (會ES6 / Vue在努力學習中...)</span>
+              <div class="progress mb-3">
+                <div class="progress-bar bg-warning" role="progressbar" style="width: 70%">70%</div>
+              </div>
+              <span>Java、Python (Django框架)</span>
+              <div class="progress mb-3">
+                <div class="progress-bar bg-success" role="progressbar" style="width: 40%">40%</div>
+              </div>
+              <span>Git、Heroku部署 (作品集中有兩個自己部署的網站: 含Django及node.js)</span>
+              <div class="progress mb-3">
+                <div class="progress-bar bg-brown" role="progressbar" style="width: 40%">40%</div>
+              </div>
+              <span>使用者經驗設計 UX流程 (有比賽及人機互動設計經驗)</span>
+              <div class="progress mb-3">
+                <div class="progress-bar bg-purple" role="progressbar" style="width: 60%">60%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section id="experience" class="py-5">
+    <div class="container">
+      <h2 class="text-center section-title">相關經歷</h2>
+      <div class="section-title-divider"></div>
+      <p class="text-center pb-3">實習、比賽、打工等相關經歷</p>
+      <div class="row">
+        <div class="col-md-4 mb-5">
+          <div class="work-box">
+            <div class="work-img">
+              <img src="images/exp-intern.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="work-content">
+              <div class="row">
+                <div class="col-sm-8">
+                  <h2 class="w-title">國泰人壽 — <br>投資資訊部暑期實習</h2>
+                  <div class="mb-3">
+                    <span class="w-catagory">實習</span> / <span class="w-date">107.07 ~ 107.08</span>
+                  </div>
+                  <div class="w-more d-flex">
+                    <div class="mx-3">
+                      <i class="far fa-edit"></i>
+                    </div>
+                    <p>前端優化（行動裝置、網站導覽功能）</p>
+                  </div>
+                  <div class="w-more d-flex">
+                    <div class="mx-3">
+                      <i class="fas fa-check-square"></i>
+                    </div>
+                    <p>RWD、Semantic UI框架、JQuery</p>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <a href="files/實習成果.pdf" target="_blank" class="btn btn-primary btn-sm float-right">成果報告</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-5">
+          <div class="work-box">
+            <div class="work-img">
+              <img
+                src="https://www.transactiontaiwan.org/uploads/user/team_logo/25/%E5%9C%98%E9%9A%8A%E7%85%A7%E7%89%87.JPG"
+                alt="" class="img-fluid">
+            </div>
+            <div class="work-content">
+              <div class="row">
+                <div class="col-sm-8">
+                  <h2 class="w-title">UX跨界超越競賽<br>(進行中 – 進入決賽)
+                  </h2>
+                  <div class="mb-3">
+                    <span class="w-catagory">比賽</span> / <span class="w-date">107.09 ~ 現在</span>
+                  </div>
+                  <div class="w-more d-flex">
+                    <div class="mx-3">
+                      <i class="far fa-edit"></i>
+                    </div>
+                    <p>改善雙薪家庭與小孩互動經驗的設計</p>
+                  </div>
+                  <div class="w-more d-flex">
+                    <div class="mx-3">
+                      <i class="fas fa-check-square"></i>
+                    </div>
+                    <p>UX流程 (定義問題/訪談/原型設計/測試)</p>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <a href="files/企業提報_不要在麥當勞做勞作.pdf" target="_blank" class="btn btn-primary btn-sm float-right">設計報告</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-5">
+          <div class="work-box">
+            <div class="work-img">
+              <img src="images/exp-job.JPG" alt="" class="img-fluid">
+            </div>
+            <div class="work-content">
+              <div class="row">
+                <div class="col-sm-12">
+                  <h2 class="w-title">打工社團經歷</h2>
+                  <div class="mb-3">
+                    <span class="w-catagory">其他</span> / <span class="w-date">大二 ~ 大四</span>
+                  </div>
+                  <div class="w-more d-flex">
+                    <div class="mx-3">
+                      <i class="far fa-edit"></i>
+                    </div>
+                    <p>資管系系學會活動部長(一年)<br>
+                      政大交響樂團副公關(半年) <br>
+                      飛哥英文輔導老師(一年) <br>
+                      紐西蘭幼兒園工讀生(一年) <br>
+                      學生餐廳內外場工讀生(一年) <br>
+                    </p>
+                  </div>
+                  <div class="w-more d-flex">
+                    <div class="mx-3">
+                      <i class="fas fa-check-square"></i>
+                    </div>
+                    <p>與人互動之溝通表達能力</p>
+                  </div>
+                </div>
+                <!-- <div class="col-sm-4">
+                      <a href="https://kevinyu0815.github.io/todoList/" target="_blank"
+                        class="btn btn-primary btn-sm float-right">前往網站</a>
+                    </div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="portfolio" class="py-5">
+    <div class="container">
+      <h2 class="text-center section-title">專案作品</h2>
+      <div class="section-title-divider"></div>
+      <p class="text-center pb-3">大三大四以來累積的各式作品，可點擊連結查看更多內容</p>
+      <div class="row">
+        <div class="col-md-4 mb-5">
+          <div class="work-box">
+            <div class="work-img">
+              <img src="images/work-todolist.png" alt="" class="img-fluid">
+            </div>
+            <div class="work-content">
+              <div class="row">
+                <div class="col-sm-8">
+                  <h2 class="w-title">Vue TodoList</h2>
+                  <div class="mb-3">
+                    <span class="w-catagory">Vue自學練習</span> / <span class="w-date">108.01</span>
+                  </div>
+                  <div class="w-more d-flex">
+                    <div class="mx-3">
+                      <i class="fas fa-code"></i>
+                    </div>
+                    <p>JavaScript - Vue</p>
+                  </div>
+                  <div class="w-more d-flex">
+                    <div class="mx-3">
+                      <i class="fas fa-check-square"></i>
+                    </div>
+                    <p>看線上課程，自我練習</p>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <a href="https://kevinyu0815.github.io/todoList/" target="_blank"
+                    class="btn btn-primary btn-sm float-right">前往網站</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-5">
+          <div class="work-box">
+            <div class="work-img">
+              <img src="images/work-puyuma.png" alt="" class="img-fluid">
+            </div>
+            <div class="work-content">
+              <div class="row">
+                <div class="col-sm-8">
+                  <h2 class="w-title">我只是個普悠瑪司機</h2>
+                  <div class="mb-3">
+                    <span class="w-catagory">JS期末遊戲專案</span> / <span class="w-date">107.11 ~ 108.01</span>
+                  </div>
+                  <div class="w-more d-flex">
+                    <div class="mx-3">
+                      <i class="fas fa-code"></i>
+                    </div>
+                    <p>HTML、CreateJs 製作網頁遊戲</p>
+                  </div>
+                  <div class="w-more d-flex">
+                    <div class="mx-3">
+                      <i class="fas fa-check-square"></i>
+                    </div>
+                    <p>負責主遊戲功能、最終程式整合，並獲得老師及同學票選「第一名」</p>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <a href="https://puyumajs.herokuapp.com/test1/index.html" target="_blank"
+                    class="btn btn-primary btn-sm float-right">前往網站</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-5">
+          <div class="work-box">
+            <div class="work-img">
+              <img src="images/work-mis.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="work-content">
+              <div class="row">
+                <div class="col-sm-8">
+                  <h2 class="w-title">Crobot健康聊天機器人</h2>
+                  <div class="mb-3">
+                    <span class="w-catagory">資管畢業專案</span> / <span class="w-date">107.01 ~ 107.06</span>
+                  </div>
+                  <div class="w-more d-flex">
+                    <div class="mx-3">
+                      <i class="fas fa-code"></i>
+                    </div>
+                    <p>Python（Django框架）架設、部署網站</p>
+                  </div>
+                  <div class="w-more d-flex">
+                    <div class="mx-3">
+                      <i class="fas fa-check-square"></i>
+                    </div>
+                    <p>負責前端、line API串接、登入註冊功能</p>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <a href="https://crobottest.herokuapp.com/" target="_blank"
+                    class="btn btn-primary btn-sm float-right">前往網站</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-5">
+          <div class="work-box">
+            <div class="work-img">
+              <img src="images/work-dct.png" alt="" class="img-fluid">
+            </div>
+            <div class="work-content">
+              <div class="row">
+                <div class="col-sm-9">
+                  <h2 class="w-title">VR- PhoneWorld (開發中)
+                    </h2>
+                  <div class="mb-3">
+                    <span class="w-catagory">學成畢業製作</span> / <span class="w-date">107.09 ~ 現在</span>
+                  </div>
+                  <div class="w-more d-flex">
+                    <div class="mx-3">
+                      <i class="fas fa-code"></i>
+                    </div>
+                    <p>Unity、C# 、Steam VR API</p>
+                  </div>
+                  <div class="w-more d-flex">
+                    <div class="mx-3">
+                      <i class="fas fa-check-square"></i>
+                    </div>
+                    <p>負責Unity 遊戲功能程式</p>
+                  </div>
+                </div>
+                <div class="col-sm-3">
+                  <a href="https://crobottest.herokuapp.com/" target="_blank"
+                    class="btn btn-primary btn-sm float-right">前往網站</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-5">
+          <div class="work-box">
+            <div class="work-img">
+              <img src="images/work-cityRun.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="work-content">
+              <div class="row">
+                <div class="col-sm-9">
+                  <h2 class="w-title">CityRun桌機版遊戲</h2>
+                  <div class="mb-3">
+                    <span class="w-catagory">學程程設期末專案</span> / <span class="w-date">106.11 ~ 107.01</span>
+                  </div>
+                  <div class="w-more d-flex">
+                    <div class="mx-3">
+                      <i class="fas fa-code"></i>
+                    </div>
+                    <p>以 processing (java) 製作小遊戲</p>
+                  </div>
+                  <div class="w-more d-flex">
+                    <div class="mx-3">
+                      <i class="fas fa-check-square"></i>
+                    </div>
+                    <p>負責多項遊戲功能、團隊合作順利</p>
+                  </div>
+                </div>
+                <div class="col-sm-3">
+                  <a href="https://www.youtube.com/watch?v=gKyDlELMIqs" target="_blank"
+                    class="btn btn-primary btn-sm float-right">Demo影片</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-5">
+          <div class="work-box">
+            <div class="work-img">
+              <img src="images/wrok-design.png" alt="" class="img-fluid">
+            </div>
+            <div class="work-content">
+              <div class="row">
+                <div class="col-sm-8">
+                  <h2 class="w-title">台北帶你Go APP設計</h2>
+                  <div class="mb-3">
+                    <span class="w-catagory">人機介面設計</span> / <span class="w-date">107.10 ~ 108.01</span>
+                  </div>
+                  <div class="w-more d-flex">
+                    <div class="mx-3">
+                      <i class="fas fa-code"></i>
+                    </div>
+                    <p>以 processing (java) 製作小遊戲</p>
+                  </div>
+                  <div class="w-more d-flex">
+                    <div class="mx-3">
+                      <i class="fas fa-check-square"></i>
+                    </div>
+                    <p>負責多項遊戲功能、團隊合作順利</p>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <a href="files/人機互動設計.pdf" target="_blank" class="btn btn-primary btn-sm float-right">前往設計報告</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="py-4">
+    <div class="container">
+      <h2 class="text-center section-title">聯絡我</h2>
+      <div class="section-title-divider"></div>
+      <p class="text-center pb-2"> 以下有我的連絡資訊，歡迎與我聯絡!! (但表單是假的XD)</p>
+      <div class="row justify-content-md-center align-items-center py-4 mx-2">
+        <div class="col-md-3">
+          <div class="info">
+            <div>
+              <i class="fa fa-map-marker"></i>
+              <p>國立政治大學</p>
+            </div>
+            <div>
+              <i class="fa fa-envelope"></i>
+              <p>f7123442@gmail.com</p>
+            </div>
+            <div>
+              <i class="fa fa-phone"></i>
+              <p>0909-663-086</p>
+            </div>
+            <div>
+              <i class="fab fa-facebook-square"></i>
+              <p>
+                <a href="https://www.facebook.com/profile.php?id=100001819515411" target="_blank">
+                  智凱facebook
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-5">
+          <div class="form">
+            <form action="" method="post" role="form" class="contactForm">
+              <div class="form-group">
+                <input type="text" name="name" class="form-control" id="name" placeholder="您的稱呼" data-rule="minlen:4"
+                  data-msg="Please enter at least 4 chars">
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" name="email" id="email" placeholder="您的信箱" data-rule="email"
+                  data-msg="Please enter a valid email">
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="留言標題"
+                  data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject">
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" name="message" rows="5" data-rule="required"
+                  data-msg="Please write something for us" placeholder="想對我說的話..."></textarea>
+              </div>
+              <div class="text-center">
+                <button type="submit" class="btn btn-info">送出表單！</button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer id="footer">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-md-12">
+          <div class="copyright">
+            © Copyright <strong>Kevin Yu</strong> / 2019.
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- bootstrap javascript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+    integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous"></script>
+  <!-- custom javascript -->
+  <script src="js/custom.js"></script>
+</body>
+
+</html>
