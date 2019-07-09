@@ -1,167 +1,189 @@
 /* All */
 @import url('https://fonts.googleapis.com/css?family=Roboto');
-
 *{
-    font-family: "Roboto", "微軟正黑體", sans-serif;
+	font-family: "Roboto", "微軟正黑體", sans-serif;
+}
+.btn{
+	border-width: 3px;
 }
 #scroll-to-top{
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-    z-index: 1500;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	z-index: 1500;
+}
+[v-cloak]{
+	visibility: hidden;
 }
 
-.btn{
-    border-width: 3px;
-}
-
+/* ====================================================================== */
 /* Header */
 .header{
-    height: 100vh;
-    background-image: url("../images/bg.jpg");
-    background-size: cover;
-    background-position: 70% 15%;
-    background-attachment: fixed;
-    position: relative;
+	height: 100vh;
+	background-image: url("../images/bg.jpg");
+	background-size: cover;
+	background-position: 70% 15%;
+	background-attachment: fixed;
+	position: relative;
 }
 .header-container{
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5);
+	height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .header-logo{
-    margin-bottom: 40px;
+	margin-bottom: 40px;
+}
+.header-title{
+  font-weight: bold;
 }
 .header-actions a{
-    margin: 10px;
+	margin: 10px;
 }
 
+/* ====================================================================== */
 /* NavBar */
 .navbar {
-    transition: background-color 0.4s linear;
+	transition: background-color 0.4s linear;
 }
 .bg-darktrans{
-    background-color: rgba(0,0,0, 0.5);
+	background-color: rgba(0,0,0, 0.5);
 }
 .scrolled-nav{
-    background-color: rgba(0,0,0, 0.85);
+	background-color: rgba(0,0,0, 0.85);
 }
 .navbar-logo{
-    max-height: 40px;
+	max-height: 40px;
 }
 .navbar-expand-lg .navbar-nav .nav-link{
-    padding: 20px;
+	padding: 10px 20px;
 }
 
+/* ====================================================================== */
 /* Section */
 .section-title{
-    font-weight: 900;
-    padding-bottom: 10px;
+	font-weight: 900;
+	padding-bottom: 10px;
 }
 .section-title-divider {
-    width: 70px;
-    height: 3px;
-    background: rgb(227, 95, 241);
-    margin: 0 auto;
-    margin-bottom: 20px;
+	width: 70px;
+	height: 3px;
+	background: rgb(227, 95, 241);
+	margin: 0 auto;
+	margin-bottom: 20px;
 }
-/* about */
+
+/* ---------------------------------------------------------------------- */
+/* About Section*/
 #about{
-    background-color: #fff;
+	background-color: #fff;
 }
 .about-item i {
-    color: rgb(227, 95, 241);
-    font-size: 24px;
+	color: rgb(227, 95, 241);
+	font-size: 24px;
 }
 .about-title{
-    margin-left: 40px;
-    font-weight: 700;
-    margin-bottom: 15px;
+	margin-left: 40px;
+	font-weight: 700;
+	margin-bottom: 15px;
 }
 p.about-description {
-    margin-left: 40px;
-    line-height: 36px;
+	margin-left: 40px;
+	line-height: 36px;
 }
 .about-skills{
-    margin-left: 50px;
-    font-size: 14px;
+	margin-left: 50px;
+	font-size: 14px;
 }
 .progress .bg-brown{
-    background-color: #6D4936;
+	background-color: #6D4936;
 }
 .progress .bg-purple{
-    background-color: rgb(206, 87, 186);
+	background-color: rgb(206, 87, 186);
 }
 
-
-/* experience */
+/* ---------------------------------------------------------------------- */
+/* Experience Section*/
 #experience{
-    background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80") fixed center center;
+	background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80") fixed center center;
 }
 
-/* portfolio */
+/* ---------------------------------------------------------------------- */
+/* Portfolio Section*/
 #portfolio{
-    background: rgba(0,0,0,0.07);
+	background: rgba(0,0,0,0.07);
 }
 .work-box{
-    height: 100%;
-    background-color: #fff;
-    box-shadow: 0px 3px 12px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 5px;
-    overflow: hidden;
+	height: 100%;
+	background-color: #fff;
+	box-shadow: 0px 3px 12px 1px rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+	overflow: hidden;
 }
 .work-img{
-    text-align: center;
-    height: 210px;
-    overflow: hidden;
+	text-align: center;
+	height: 210px;
+	overflow: hidden;
 }
 .work-content {
-    padding: 2rem 3% 1rem 4%;
-    font-size: 0.9rem;
+	padding: 2rem 3% 1rem 4%;
+	font-size: 0.9rem;
 }
 .work-content .w-title {
-    font-size: 1.2rem;
-    font-weight: bold;
+	font-size: 1.2rem;
+	font-weight: bold;
 }
 .work-content .w-more {
-    color: #4e4e4e;
+	color: #4e4e4e;
 }
 .work-content .w-more p{
-    margin-bottom: 5px;
+	margin-bottom: 5px;
+}
+.work-content .w-more .icon{
+	width: 20px;
+	text-align: center;
+	/* 讓icon不會自動被flexbox縮減 */
+	flex-shrink: 0;
 }
 .work-content .w-catagory{
-    color: #0078ff;
+	color: #0078ff;
 }
 .work-content .w-date{
-    font-size: .65rem;
+	font-size: .65rem;
 }
 
-/* contact */
+/* ---------------------------------------------------------------------- */
+/* Contact Section */
 #contact .row{
-    background-color: rgba(0,0,0,0.2);
-    border-radius: 20px;
+	background-color: rgba(0,0,0,0.2);
+	border-radius: 20px;
 }
 .info i {
-    font-size: 26px;
-    color: rgb(227, 95, 241);
-    float: left;
-    text-align: center;
+	font-size: 26px;
+	color: rgb(227, 95, 241);
+	float: left;
+	text-align: center;
 }
 .info p {
-    padding: 0 0 20px 50px;
-    line-height: 24px;
+	padding: 0 0 20px 50px;
+	line-height: 24px;
 }
 #contact a{
-    color: rgb(210, 64, 226);
+	color: rgb(210, 64, 226);
 }
 
-/* footer */
+
+/* ====================================================================== */
+/* Footer */
 #footer{
-    background-color: rgba(0,0,0, 0.85);
-    padding: 30px 0;
-    color: #fff;
+	background-color: rgba(0,0,0, 0.85);
+	padding: 30px 0;
+	color: #fff;
 }
 
 /* Main */
 .main{
-    margin-bottom: 500px;
+	margin-bottom: 500px;
 }
