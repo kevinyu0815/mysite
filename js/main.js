@@ -154,7 +154,7 @@ var exp_app = new Vue({
 		// 跨界超越競賽
 		exp.push({
       img: 'images/exp-transaction.jpg',
-			title: 'UX跨界超越競賽(前十名)',
+			title: 'UX跨界超越競賽(獲第三名及HTC、和碩企業冠名獎)',
 			category: '比賽',
 			date: '107.09 ~ 108.06',
 			skill: '根據使用者需求，設計產品「Time For Kid 」→ 讓小孩學習自我管理能力的電子桌遊',
