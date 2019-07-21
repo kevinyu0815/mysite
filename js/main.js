@@ -153,7 +153,7 @@ var exp_app = new Vue({
 		let exp = this.exp;
 		// 跨界超越競賽
 		exp.push({
-      img: 'images/exp-transaction.jpg',
+			img: 'images/exp-transaction2.jpg',
 			title: 'UX跨界超越競賽(獲第三名及HTC、和碩企業冠名獎)',
 			category: '比賽',
 			date: '107.09 ~ 108.06',
